@@ -1,19 +1,42 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Password Generator
+A solo challenge to create a random password generator, on [Scrimba's Fullstack Developer Path](https://scrimba.com/fullstack-path-c0fullstack).
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## Sandbox
+https://codesandbox.io/p/github/belikeeve/password-generator/draft/pensive-wind
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Live demo
+[Random password generator](lustrous-mermaid-63dc17.netlify.app)
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Summary
 
-Happy Coding!
+The task was to create a random password generator using Javascript, and with minimal guidance.
+
+### Elements
+
+The project is a landing page with a card containing...
+
+
+### Requirements
+
+  - [x] Build it from "scratch"
+  - [x] Use semantic HTML5 markup
+  - [x] Use Javascript
+  - [x] Use CSS custom properties
+  - [x] Use flexbox for aligning elements
+  - [x] Follow the UX design guide on Figma
+
+### Stretch goals [when time permits]
+
+  - [ ] Ability to set password length
+  - [ ] Add "copy-on-click"
+  - [ ] Toggle symbols and numbers on and off
+
+
+### Disclaimer
+
+I do not own the rights to any images or GIFs used.
+
+### Author
+
+Website - https://jasminenelson.notion.site
+
