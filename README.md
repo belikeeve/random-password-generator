@@ -5,7 +5,7 @@ A solo challenge to create a random password generator, on [Scrimba's Fullstack 
 https://codesandbox.io/p/github/belikeeve/password-generator/draft/pensive-wind
 
 ## Live demo
-[Random password generator] (https://fkpwc3-5173.csb.app/)
+[Random password generator](https://fkpwc3-5173.csb.app/)
 
 ## Summary
 
