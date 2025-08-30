@@ -85,3 +85,10 @@ hr.solid {
 #copy-success.visible {
     opacity: 1;
 }
+
+.password-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
