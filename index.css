@@ -47,10 +47,9 @@ hr.solid {
 }
 
 .passwords {
-  display: flex;
-  margin: 0 auto;
-  max-width: 500px;
-  gap: 40px;
+    margin: 0 auto;
+    max-width: 500px;
+    padding-top: 20px;
 }
 
 #password-one, #password-two {
