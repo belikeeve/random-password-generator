@@ -60,3 +60,27 @@ hr.solid {
   padding: 10px 20px;
   border-radius: 10px;
 }
+
+.copy-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.2s;
+}
+
+.copy-icon:hover {
+    transform: scale(1.1);
+}
+
+#copy-success {
+    text-align: center;
+    color: #4ADF86;
+    font-weight: 700;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    margin-top: 20px;
+}
+
+#copy-success.visible {
+    opacity: 1;
+}
