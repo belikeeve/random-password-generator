@@ -3,6 +3,10 @@ body {
     background-color: #1F2937;
     font-family: "Karla", "Manrope", sans-serif;
     font-optical-sizing: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
