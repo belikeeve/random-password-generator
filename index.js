@@ -21,6 +21,30 @@ function generateRandomPassword() {
 // Get the button
   const generatePasswordsButton = document.getElementById("generatePasswordsButton");
 
+// Get the new elements
+  const copyIconOne = document.getElementById("copy-icon-one");
+  const copyIconTwo = document.getElementById("copy-icon-two");
+  const successMessage = document.getElementById("copy-success");
+
+// The copy function
+    function copyText(element) {
+      const textToCopy = element.textContent;
+      const tempInput = document.createElement("input");
+      tempInput.value = textToCopy;
+      document.body.appendChild(tempInput);
+      
+      tempInput.select();
+      document.execCommand("copy");
+      
+      document.body.removeChild(tempInput);
+      
+      // Show the success message and then hide it
+      successMessage.classList.add("visible");
+      setTimeout(() => {
+          successMessage.classList.remove("visible");
+      }, 1500); // 1.5 seconds
+    }
+
 // Add an event listener to the button
   generatePasswordsButton.addEventListener("click", function () {
   
@@ -32,4 +56,13 @@ function generateRandomPassword() {
   passwordOne.textContent = firstPassword;
   passwordTwo.textContent = secondPassword;
   
+});
+
+// Add event listeners to the icons
+    copyIconOne.addEventListener("click", function() {
+    copyText(passwordOne);
+});
+
+    copyIconTwo.addEventListener("click", function() {
+    copyText(passwordTwo);
 });
