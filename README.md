@@ -4,8 +4,8 @@ A solo challenge to create a random password generator, on [Scrimba's Fullstack 
 ## Sandbox
 https://codesandbox.io/p/github/belikeeve/random-password-generator/draft/amazing-gates
 
-## Live demo[
-Random password generator](https://vsty2q-5173.csb.app/)
+## Live demo
+[Random password generator](https://vsty2q-5173.csb.app/)
 
 ## Summary
 
