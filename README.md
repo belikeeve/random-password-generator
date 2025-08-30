@@ -25,7 +25,7 @@ The project is a landing page with a card containing...
 ### Stretch goals [when time permits]
 
   - [ ] Ability to set password length
-  - [ ] Add "copy-on-click"
+  - [x] Add "copy-on-click"
   - [ ] Toggle symbols and numbers on and off
 
 
